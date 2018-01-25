@@ -100,6 +100,7 @@ git branch -D origin xx-branch-to-merge-old
 
 ## RESET
 
-- `--hard` rompe todo
-- `--soft` saca los cambios y los deja para poder volver a agregar usando `git add`
+- `git reset --hard` rompe todo
+- `git reset --hard -HEAD~10` hace reset desde HEAD hasta 10 commits atras
+- `git reset --soft` saca los cambios y los deja para poder volver a agregar usando `git add`
 
